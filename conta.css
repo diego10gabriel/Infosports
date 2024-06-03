@@ -1,0 +1,56 @@
+html {
+    height: 100%;
+    margin-bottom: 0%;
+    display:grid;
+    margin-left: -3px;
+}
+header {
+    background-color: rgb(86, 103, 255);
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    width: 100%;
+    margin-top: 0%;
+    margin-bottom: 0%;
+    height: 100px;
+}
+body {
+    min-height: 100%;
+    margin-top: 0%;
+    margin-bottom: 0%;
+    display: flex;
+    flex-direction: column;
+}
+ul {
+    display: flex;
+}
+a {
+    text-decoration: none;
+}
+.logo{
+    margin-top: 10px;
+    margin-bottom: 25px;
+    padding-top: 10px;
+}
+.logo a {
+    color: white;
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#botao {
+    margin-top: 15px;
+    margin-bottom: 15px;
+    color: black;
+    background-color: lavender;
+    padding: 10px 15px 10px 15px;
+    border-radius: 15px;
+    margin-left: 50px;
+    height: 15px;
+}
+#botao a {
+    color: black;
+}
+div.espaço {
+    display: flex;
+    margin-left: auto;
+}
