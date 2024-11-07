@@ -14,65 +14,90 @@
         <div id="botao"><a href="login.html">Login</a></div>
         <div id="botao"><a href="registro.html">Registro</a></div>
         <div id="botao"><a href="contato.html">Contato</a></div>
-            <input type="checkbox" class="checkbox" id="chk"/>
+        <input type="checkbox" class="checkbox" id="chk"/>
       </ul>
     </nav>
 </header>
 <body>
     <div class="centro">
-       <h1> Seja Bem Vindo a Infosports </h1> <br>
-    <p>Agora é onde você encontra todos os itens mais novos e modernos do seu esporte preferido</p>
+      <h1> Seja Bem Vindo a Infosports </h1>
+      <h5>Agora é onde você encontra todos os itens mais novos e modernos do seu esporte preferido</p>
     </div>
-    <a class="cinza" href="boxe.html">
-    <div class="outo">
-        <img src="get.jpg" width="400" height="275">
-        <h3> Boxe </h3>
-          <br>
-        <p> Descubra a força interior e a técnica impecável necessáriad para se destacar no ringue.<br>
-        Desafie-se a se superar seus limites físicos e mentais, <br>
-        enquanto aprende os segredos deste esporte de combate emocionante.
-        </p>
-      </a>
-    </div>
-  <br>
-   <a class="black" href="ten.html">
-   <div class="lado">
-  <img src="ten.jpg" width="400" height="300"> 
-  <h4> Tênis </h4>
-  <p>Experimente a elegância e a velocidade do tênis, um esporte que combina habilidade, estratégia e agilidade. <br> Jogue com padrão, vença com classe e desfrute da competição saudável em quadra </p>
-    </a>
-    </div>
-  <a class="cinza" href="corrida.html">
- <div class="oto">
-  <img src="corre.jpg" width="325" height="250">
- <h5> Corrida</h5>
-   <p>
-    Calce seus tênis e sinta a energia pulsante das corridas. <br> 
-    Desafie-se em diferentes distâncias, supere obstáculos <br>
-    e descubra os beneficios incríveis para a saúde <br>
-    e o bem-estar que a comida proporciona.</p>
-  </a>
-    </div>
-      <div class="lado">
-      <a class="cinza" href="surf.html">
-         <img src="download.jpeg" width="400" height="200">
-     <h3> SURF OU SURFE  </h3>
-        <p>Sinta a liberdade e a conexão com o mar enquanto desliza pelas ondas no surf.
-          <br> 
-          Experimente a emoção de pegar a onda perfeita, <br> 
-          domine as técnicas e mergulhe no estilo de vida descontraído e vibrante do surf.
-        </p> 
-      </a>
-    </div>
-       <div class="oto">
-        <a class="black" href="Bas.html">
-          <h3> BASQUETE </h3>
-        <p> Drible, passe e arremesse! <br> 
-        Junte- se ao emocionante mundo do basquete e experimente a empolgação de jogar em equipe, <br> 
-        competir em partidas aciradas e fazer cestas incriveis. </p>
-            <img src="215.jpg" width="400" height="230">  <br>
-         </a>
+    <div class="flexbox">
+      <div>
+        <div class="grid-item">
+          <a class="black" href="boxe.html">
+            <div class="lado infobox">
+                <img src="get.jpg" width="250" height="160">
+                <h3>Boxe</h3>
+                <br>
+                <p> Descubra a força interior e a técnica impecável necessáriad para se destacar no ringue.<br>
+                  Desafie-se a se superar seus limites físicos e mentais, <br>
+                  enquanto aprende os segredos deste esporte de combate emocionante.
+                </p>
+            </div>
+          </a>
+          <a class="black" href="ten.html">
+            <div class="lado infobox">
+              <img src="ten.jpg" width="250" height="160"> 
+              <h3>Tênis</h3>
+              <br>
+              <p>Experimente a elegância e a velocidade do tênis, um esporte que combina habilidade, estratégia e agilidade. <br>
+                 Jogue com padrão, vença com classe e desfrute da competição saudável em quadra 
+              </p>
+            </div>
+          </a>
+          <a class="black" href="corrida.html">
+            <div class="lado infobox">
+              <img src="corre.jpg" width="250" height="160">
+                <h3>Corrida</h3>
+                <br>
+                <p>
+                Calce seus tênis e sinta a energia pulsante das corridas. <br> 
+                Desafie-se em diferentes distâncias, supere obstáculos <br>
+                e descubra os beneficios incríveis para a saúde <br>
+                e o bem-estar que a comida proporciona.
+                </p>
+            </div>
+          </a>
+          <a class="black" href="surf.html">
+            <div class="lado infobox">
+              <img src="download.jpeg" width="250" height="160">
+              <h3>SURF</h3>
+              <br>
+              <p>Sinta a liberdade e a conexão com o mar enquanto desliza pelas ondas no surf.<br> 
+              Experimente a emoção de pegar a onda perfeita, <br> 
+              domine as técnicas e mergulhe no estilo de vida descontraído e vibrante do surf.
+              </p> 
+            </div>
+          </a>
+        </div>
+        <div class="grid-item">
+          <a class="black" href="Bas.html">
+            <div class="lado infobox">
+              <img src="215.jpg" width="250" height="160">
+              <h3>BASQUETE</h3>
+              <br>
+              <p> Drible, passe e arremesse! <br> 
+              Junte- se ao emocionante mundo do basquete e experimente a empolgação de jogar em equipe, <br> 
+              competir em partidas aciradas e fazer cestas incriveis. 
+              </p>
+            </div>
+          </a>
+        </div>
       </div>
-</style> 
+      <div class="grid-form">
+        <form id="formulario">
+          <h4> calculadora</h4>
+          <h4>peso (kg)</h4>
+          <input required step="0.01" id="peso" type="number">
+          <br>
+          <h4>altura (m)</h4>
+          <input required step="0.01" id="altura" type="number">
+        <br>
+        <button type="submit" id="botao"> = </button>
+        </form>
+      </div>
+    </div>
 </body>
 </html>
